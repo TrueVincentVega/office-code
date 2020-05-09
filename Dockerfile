@@ -18,4 +18,4 @@ USER 101
 CMD bash start-libreoffice.sh
 
 # Add certificats
-ADD /certs/*.pem /etc/loolwsd/*pem
+ADD /certs/ /etc/loolwsd/
